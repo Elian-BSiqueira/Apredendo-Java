@@ -1,4 +1,4 @@
-package Prof_Samara;
+package Exercicios;
 
 public class UsandoArrays {
     public static void main(String[] args) {

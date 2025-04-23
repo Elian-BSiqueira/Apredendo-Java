@@ -1,16 +1,18 @@
-package Prof_Samara;
+package Exercicios;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ControleDeDecisao3 {
+public class ControleDeDecisao4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        double media = 0;
         boolean controleDeLoop = true;
+        int media = 0;
+
+        boolean alunoBolsista = false;
 
         while (controleDeLoop) {
-            System.out.print("Digite sua media para saber se esta aprovado: ");
+            System.out.print("Digite a media final: ");
             try {
                 media = scan.nextInt();
                 if (media > 0) {
@@ -20,14 +22,17 @@ public class ControleDeDecisao3 {
                 }
             } catch (InputMismatchException e) {
                 scan.nextLine();
-                System.out.println("DIGITE UM NUMERO INTEIRO");
+                System.out.println("Media invalida. Digite um numero inteiro");
             }
         }
-
-        if (media >= 60) {
-            System.out.println("Parabens, voce esta aprovado");
+        if (alunoBolsista && media >= 70) {
+            System.out.println("Aprovado com bolsa mantida");
+        } else if (alunoBolsista && media < 70) {
+            System.out.println("Reprovado e bolsa cancelada");
+        } else if (!alunoBolsista && media >= 60) {
+            System.out.println("Aprovado");
         } else {
-            System.out.println("Voce esta Reprovado");
+            System.out.println("Reprovado");
         }
     }
 }

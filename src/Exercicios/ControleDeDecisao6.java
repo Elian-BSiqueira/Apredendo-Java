@@ -1,4 +1,4 @@
-package Prof_Samara;
+package Exercicios;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
