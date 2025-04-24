@@ -1,5 +1,6 @@
 package Exercicios;
 
+import javax.swing.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -8,9 +9,13 @@ public class ControleDeDecisao4 {
         Scanner scan = new Scanner(System.in);
         boolean controleDeLoop = true;
         int media = 0;
-
         boolean alunoBolsista = false;
-
+        int resposta = JOptionPane.showConfirmDialog(null, "Aluno é bolsista? ");
+        if (resposta == 0) {
+            alunoBolsista = true;
+        } else {
+            {};
+        }
         while (controleDeLoop) {
             System.out.print("Digite a media final: ");
             try {

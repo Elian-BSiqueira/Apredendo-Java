@@ -11,7 +11,7 @@ public class ControleDeDecisao {
         boolean controleDeLoop = true;
 
         while (controleDeLoop) {
-            System.out.print("Digite um numero para saber se impar ou par: ");
+            System.out.print("Digite um numero para saber se é impar ou par: ");
             try {
                 numero = scan.nextInt();
                 controleDeLoop = false;
