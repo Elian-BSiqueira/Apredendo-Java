@@ -2,22 +2,24 @@ package Exercicios;
 
 public class UsandoArrays {
     public static void main(String[] args) {
-        int[] numeros = {5, 10, 15, 20, 25};
-        /*for (int numero : numeros) {
-            System.out.println(numero);
-        }*/
+        int[] numeros = {10, 20, 30, 40, 50};
 
         // Exercicio 1
         System.out.println(numeros[1]);
         System.out.println(numeros[3]);
+        System.out.println("=".repeat(30));
 
         // Exercicio 2
         numeros[2] = 100;
         System.out.println(numeros[2]);
+        System.out.println("=".repeat(30));
+
 
         //Exercicio 3
         int[] numerosInteiros = {3, 6, 9, 12, 15};
         System.out.println(numerosInteiros[0] + numerosInteiros[4]);
+        System.out.println("=".repeat(30));
+
 
         // Nao e exercicio
 
@@ -32,8 +34,12 @@ public class UsandoArrays {
         } else {
             System.out.println("O primeiro e ultimo numeros da lista sao diferentes");
         }
+        System.out.println("=".repeat(30));
+
 
         //Exercicio 5
-        System.out.println(numerosInteiros[1] + numerosInteiros[2]);
+        System.out.println(numerosInteiros[1] - numerosInteiros[2]);
+        System.out.println("=".repeat(30));
+
     }
 }
