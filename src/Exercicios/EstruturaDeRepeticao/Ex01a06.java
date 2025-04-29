@@ -34,15 +34,39 @@ public class Ex01a06 {
 
         //Exercicio 5 - tabuada
 
-        int numero = Funcoes.VerificarNumero("Digite um numero inteiro para ver sua tabuada: ");
+        /*int numero = Funcoes.VerificarNumero("Digite um numero inteiro para ver sua tabuada: ");
         for (int i = 1; i < 11; i++) {
             System.out.printf("%d x %d = %d %n", numero, i, numero * i);
-        }
+        }*/
 
         //Exercicio 6
         /*for (int i = 2; i <= 10 ; i+=2) {
             System.out.println(i);
         }*/
+
+        //Exercicio 7 - fatorial
+        /*int numero = Funcoes.VerificarNumero("Digite um numero inteiro para ver seu fatorial: ");
+        int fatorial = 1;
+        for (int i = 1; i <= numero ; i++) {
+            fatorial *= i;
+        }
+        System.out.printf("%d! = %d", numero, fatorial);*/
+
+        //Exercicio 8 - maior numero
+        /*int[] numeros = {3, 7, 3, 43, 6, 100, 2, 5};
+        int maiorNumero = numeros[0];
+        for (int num : numeros) {
+            if (num > maiorNumero) {
+                maiorNumero = num;
+            } else {
+                {};
+            }
+        }
+        System.out.println("Maior numero " + maiorNumero);*/
+
+        // Exercicio 9 - contagem de vogais
+
+
 
     }
 }
