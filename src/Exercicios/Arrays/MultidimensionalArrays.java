@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.Arrays;
 
 public class MultidimensionalArrays {
     static void MostrarMatriz(int array[][]) {
