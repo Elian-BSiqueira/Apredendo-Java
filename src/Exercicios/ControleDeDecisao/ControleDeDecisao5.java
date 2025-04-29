@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.ControleDeDecisao;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -47,7 +47,6 @@ public class ControleDeDecisao5 {
             System.out.printf("O produto de R$%.2f nao tem desconto", precoFinal);
         }
 
-
-
+        scan.close();
     }
 }

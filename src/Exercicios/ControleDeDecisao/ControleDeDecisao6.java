@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.ControleDeDecisao;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,9 +1,9 @@
-package Exercicios;
+package Exercicios.ControleDeDecisao;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ControleDeDecisao {
+public class ControleDeDecisaoEx1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         // Exercicio 1
@@ -26,6 +26,7 @@ public class ControleDeDecisao {
         } else {
             System.out.printf("O numero %d e impar", numero);
         }
+        scan.close();
 
     }
 }

@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.Arrays;
 
 public class UsandoArrays {
     public static void main(String[] args) {

@@ -1,21 +1,24 @@
-package Exercicios;
+package Exercicios.ControleDeDecisao;
 
 import javax.swing.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ControleDeDecisao4 {
+public class ControleDeDecisao7 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         boolean controleDeLoop = true;
         int media = 0;
-        boolean alunoBolsista = false;
-        int resposta = JOptionPane.showConfirmDialog(null, "Aluno é bolsista? ");
+        boolean entregouTodosTrabalhos = false;
+
+        int resposta = JOptionPane.showConfirmDialog(null,"O aluno entregou todos os trabalhos? ");
         if (resposta == 0) {
-            alunoBolsista = true;
+            entregouTodosTrabalhos = true;
         } else {
-            {};
+            {}
         }
+
+
         while (controleDeLoop) {
             System.out.print("Digite a media final: ");
             try {
@@ -30,14 +33,14 @@ public class ControleDeDecisao4 {
                 System.out.println("Media invalida. Digite um numero inteiro");
             }
         }
-        if (alunoBolsista && media >= 70) {
-            System.out.println("Aprovado com bolsa mantida");
-        } else if (alunoBolsista && media < 70) {
-            System.out.println("Reprovado e bolsa cancelada");
-        } else if (!alunoBolsista && media >= 60) {
-            System.out.println("Aprovado");
+        if (entregouTodosTrabalhos && media >= 90) {
+            System.out.println("Desempeno excelente");
+        } else if (entregouTodosTrabalhos && media >= 70 && media <= 89) {
+            System.out.println("Desempenho Bom");
+        } else if (!entregouTodosTrabalhos && media >= 50 && media <= 69) {
+            System.out.println("Desempenho satisfatorio");
         } else {
-            System.out.println("Reprovado");
+            System.out.println("Desempenho insuficiente");
         }
     }
 }

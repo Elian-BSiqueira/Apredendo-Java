@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.ControleDeDecisao;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -41,5 +41,7 @@ public class ControleDeDecisao2 {
         } else {
             System.out.printf("O numero %d e menor que %d", numero1, numero2);
         }
+
+        scan.close();
     }
 }

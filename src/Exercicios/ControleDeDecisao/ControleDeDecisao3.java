@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios.ControleDeDecisao;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -29,5 +29,7 @@ public class ControleDeDecisao3 {
         } else {
             System.out.println("Voce esta Reprovado");
         }
+
+        scan.close();
     }
 }
