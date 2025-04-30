@@ -8,7 +8,13 @@ public class testes {
         Scanner scan = new Scanner(System.in);
         System.out.println("Escreva ");
         String teste = scan.nextLine().toLowerCase();
-        char[] vogais = {'a', 'e', 'i', 'o', 'u'};
+        String[] vogais = {"a", "e", "i", "o", "u"};
+        char[] v = {'a'};
+        int quantidade = 0;
+
+
+        System.out.println(quantidade);
+
 
 
     }

@@ -53,7 +53,7 @@ public class Ex01a06 {
         System.out.printf("%d! = %d", numero, fatorial);*/
 
         //Exercicio 8 - maior numero
-        /*int[] numeros = {3, 7, 3, 43, 6, 100, 2, 5};
+        int[] numeros = {3, 7, 3, 43, 6, 100, 2, 5};
         int maiorNumero = numeros[0];
         for (int num : numeros) {
             if (num > maiorNumero) {
@@ -62,9 +62,9 @@ public class Ex01a06 {
                 {};
             }
         }
-        System.out.println("Maior numero " + maiorNumero);*/
+        System.out.println("Maior numero " + maiorNumero);
 
-        // Exercicio 9 - contagem de vogais
+        // Exercicio 9 -
 
 
 
