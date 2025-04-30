@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Funcoes {
-    public static int VerificarNumero(String texto) {
+    public static int VerificarNumeroInt(String texto) {
         Scanner scan = new Scanner(System.in);
         boolean controleDeLoop = true;
         int numero = 0;
@@ -24,7 +24,7 @@ public class Funcoes {
         return numero;
     }
 
-    public static double Verificarnumero(String texto) {
+    public static double VerificarNumeroDouble(String texto) {
         Scanner scan = new Scanner(System.in);
         boolean controleDeLoop = true;
         double numero = 0;
