@@ -46,7 +46,7 @@ public class ExWhile {
         System.out.println(acumulador);*/
 
         //Exercicio 5
-        int numero;
+        /*int numero;
         do {
             System.out.print("Digite um numero para ver sua tabuada. Digite 0 para sair: ");
             numero = scan.nextInt();
@@ -57,7 +57,34 @@ public class ExWhile {
                 }
             }
 
-        } while (numero > 0);
+        } while (numero > 0);*/
+
+        //Exercicio 6
+        /*int opcao;
+        do {
+            System.out.println("Ola, mundo");
+            System.out.println("""
+                    1) Continuar imprimindo a mensagem
+                    2) Parar de imprimir a mensagem
+                    """);
+            System.out.print("Digite sua opção: ");
+            opcao = scan.nextInt();
+
+        } while (opcao != 2);*/
+
+        // Exercicio 7
+        int opcao;
+        do {
+            System.out.println("Ola, mundo");
+            System.out.println("""
+                    1) Continuar dobrando
+                    2) Parar de imprimir a mensagem
+                    """);
+            System.out.print("Digite sua opção: ");
+            opcao = scan.nextInt();
+
+        } while (opcao != 2);
+
 
 
     }
