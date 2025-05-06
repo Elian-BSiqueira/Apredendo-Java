@@ -18,7 +18,6 @@ public class CalculadoraSimples {
                 5 - Sair
                 
                 """;
-        String grauDeEscolaridade;
         int opcao = -1;
         do {
             System.out.println(menu);
