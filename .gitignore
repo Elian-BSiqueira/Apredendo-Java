@@ -28,3 +28,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 src/testes.java
+src/Exercicios/Hashmap/Testes.java
+src/Exercicios/ArrayList/Testes.java
+src/Exercicios/ArrayList/Testes.java
