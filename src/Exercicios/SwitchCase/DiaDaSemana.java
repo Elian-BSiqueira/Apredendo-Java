@@ -6,9 +6,12 @@ import Exercicios.util.Funcoes;
 public class DiaDaSemana {
     public static void main(String[] args) {
         // Programa Java que receba um número de 1 a 7 e imprima o nome do dia da semana correspondente.
-
+        int dia = 0;
         Scanner scan = new Scanner(System.in);
-        int dia = Funcoes.VerificarNumeroInt("Digte um numero para ver o dia: ");
+        do {
+            dia = Funcoes.VerificarNumeroInt("Digte um numero para ver o dia: ");
+        } while (dia < 0);
+
         double ciclosSemanais = dia / 7;
         ciclosSemanais = Math.floor(ciclosSemanais);
         dia %= 7;
@@ -42,7 +45,7 @@ public class DiaDaSemana {
                 nomeDia = "Dia invalido";
                 break;
         }
-        String mensagem = String.format("Comecando a semana com domingo. Se passaram %.0f semanas e esta no dia %d," +
+        String mensagem = String.format("Comecando a semana com domingo. Se passaram %.0f semanas e está no dia %d," +
                         " que corresponde a %s", ciclosSemanais, dia, nomeDia);
         System.out.println(mensagem);
     }
