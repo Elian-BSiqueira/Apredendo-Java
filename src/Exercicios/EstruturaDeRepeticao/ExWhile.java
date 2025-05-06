@@ -1,5 +1,7 @@
 package Exercicios.EstruturaDeRepeticao;
 
+import Exercicios.util.Funcoes;
+
 import java.util.Scanner;
 
 public class ExWhile {
@@ -84,14 +86,21 @@ public class ExWhile {
         // a operação com o resultado obtido até que o usuário escolha parar.
 
         /*int opcao;
+        int numero = 0;
+        int dobrado = 0;
+        System.out.println("Dobrar numero");
+        numero = Funcoes.VerificarNumeroInt("Digite um numero para dobrar: ");
         do {
-            System.out.println("Ola, mundo");
+            dobrado = numero * 2;
+            numero = dobrado;
+            System.out.printf("%d x 2 = %d %n", numero, dobrado);
+
             System.out.println("""
                     1) Continuar dobrando
-                    2) Parar de imprimir a mensagem
+                    2) Sair
                     """);
             System.out.print("Digite sua opção: ");
-            opcao = scan.nextInt();
+            opcao = Funcoes.VerificarInteiroComIntervalo("Digite sua opcao: ", 1, 2);
 
         } while (opcao != 2);*/
 
@@ -118,15 +127,22 @@ public class ExWhile {
 
         /* Exercicio 9 - Escreva um programa que peça ao usuário um número inteiro positivo N e use um laço do-while
         para imprimir todos os números de 1 até N. */
-        /*int numero = -1;
+        int numero = -1;
         do {
             System.out.print("\nDigite um numero para contagem. Digite 0 para encerrar: ");
             numero = scan.nextInt();
-            for (int i = 1; i <= numero ; i++) {
-                System.out.print(" " + i);
+            if (numero > 0) {
+                for (int i = 1; i <= numero ; i++) {
+                    System.out.print(" " + i);
+                }
+            } else if (numero < 0) {
+                for (int i = numero; i < 0 ; i++) {
+                    System.out.print(" " + i);
+                }
             }
 
-        } while (numero != 0);*/
+
+        } while (numero != 0);
 
 
     }
