@@ -18,7 +18,7 @@ public class Map {
         System.out.println("Estoque de produtos");
         System.out.println("=".repeat(30));
 
-        HashMap<String, Integer> estoque = new HashMap<String, Integer>();
+        HashMap<String, Integer> estoque = new HashMap<>();
 
         int opcao = -1;
         while (true) {
@@ -44,7 +44,7 @@ public class Map {
                     }
                     break;
                 case 2:
-                    if (estoque.size() != 0) {
+                    if (estoque.isEmpty()) {
                         for (String produtos : estoque.keySet()) {
                             System.out.println(produtos + " - " + estoque.get(produtos));
                             System.out.print("Digite o produto que quer remover: ");
