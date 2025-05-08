@@ -1,0 +1,40 @@
+
+
+6. Escreva um programa que exiba a tabuada de um número escolhido pelo usuário (de 1 a 10). Use um loop for para gerar a tabuada.
+
+
+7. Escreva um programa que peça ao usuário para digitar um número inteiro. O programa deve calcular a soma de todos os números de 1 até o número inserido pelo usuário, utilizando um loop while. Por exemplo, se o usuário digitar 5, o programa deve calcular 1 + 2 + 3 + 4 + 5 e exibir o resultado.
+
+
+8. Desenvolva um programa que peça ao usuário para digitar números inteiros repetidamente. O programa deve continuar pedindo números até que o usuário digite um número negativo. Ao final, exiba a quantidade de números positivos que foram digitados. Utilize um loop do-while para implementar essa lógica.
+
+
+9. Crie um programa que simule uma calculadora simples. O programa deve solicitar ao usuário dois números e uma operação (+, -, *, /). Utilize um switch-case para realizar a operação correspondente e exibir o resultado. Se o usuário digitar uma operação inválida, o programa deve exibir uma mensagem de erro.
+
+
+10. Escreva um programa que exiba um menu de opções para o usuário:
+
+
+a. Somar dois números
+
+b. Subtrair dois números
+
+c. Sair
+
+
+11. O programa deve utilizar um loop while que continua mostrando o menu até que o usuário escolha a opção "Sair". Para as opções 1 e 2, o programa deve solicitar os números ao usuário e utilizar um switch-case para realizar a operação escolhida, exibindo o resultado.
+
+
+12. Leia uma quantidade indefinida de notas (double) e armazene em um ArrayList. Calcule e exiba a média das notas.
+
+
+13. Peça ao usuário para digitar 10 nomes e armazene em um ArrayList. Em seguida, exiba apenas os nomes com mais de 5 letras.
+
+
+14. Crie uma lista de inteiros e remova todos os números pares da lista. Mostre a lista original e a lista final.
+
+
+15. Use um HashMap<String, ArrayList<Double>> para armazenar alunos e suas notas. Permita cadastrar notas por aluno e calcular a média individual.
+
+
+16. Crie um dicionário português-inglês usando HashMap<String, String>. Permita consultar palavras e adicionar novas traduções.
