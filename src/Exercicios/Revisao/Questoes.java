@@ -87,6 +87,33 @@ public class Questoes {
          * Em seguida, copie os elementos desse array para um segundo array, mas na ordem inversa,
          * e exiba os elementos do segundo array.
          */
+        /*int numero = 0;
+        int[] numeros = new int[5];
+        int[] numerosOrdemInversa = new int[5];
+        for (int i = 1; i < 6; i++) {
+            System.out.printf("Digite o %d numero: ", i);
+            numero = scan.nextInt();
+            numeros[i-1] = numero;
+        }
+
+
+        for (int i = numeros.length - 1 ; i >= 0; i--) {
+            for (int n : numeros) {
+                numerosOrdemInversa[i] =  n;
+        }
+    }
+
+        for (int n : numerosOrdemInversa) {
+            System.out.println(n);
+        }*/
+        // 6. Escreva um programa que exiba a tabuada de um número escolhido pelo usuário (de 1 a 10).
+        // Use um loop for para gerar a tabuada.
+        int numero = Funcoes.VerificarNumero("Digite um numero inteiro para ver sua tabuada: ");
+        for (int i = 1; i < 11; i++) {
+            System.out.printf("%d x %d = %d %n", numero, i, numero * i);
+        }
+
+
 
 
 

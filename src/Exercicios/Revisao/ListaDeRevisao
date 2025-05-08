@@ -1,6 +1,5 @@
 
 
-6. Escreva um programa que exiba a tabuada de um número escolhido pelo usuário (de 1 a 10). Use um loop for para gerar a tabuada.
 
 
 7. Escreva um programa que peça ao usuário para digitar um número inteiro. O programa deve calcular a soma de todos os números de 1 até o número inserido pelo usuário, utilizando um loop while. Por exemplo, se o usuário digitar 5, o programa deve calcular 1 + 2 + 3 + 4 + 5 e exibir o resultado.
