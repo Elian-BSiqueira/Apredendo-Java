@@ -1,3 +1,5 @@
+package OrientacaoAObjetos;
+
 public class Livro {
     private String titulo;
     private Autor autor;
@@ -9,15 +11,19 @@ public class Livro {
         this.anoDePublicacao = anoDePublicacao;
     }
 
+
     public String getTitulo() {
         return titulo;
     }
+
 
     public Autor getAutor() {
         return autor;
     }
 
+
     public int getAnoDePublicacao() {
         return anoDePublicacao;
     }
+
 }

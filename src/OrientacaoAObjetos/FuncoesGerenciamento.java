@@ -1,3 +1,6 @@
+import OrientacaoAObjetos.Autor;
+import OrientacaoAObjetos.Livro;
+
 import java.util.*;
 
 /*
